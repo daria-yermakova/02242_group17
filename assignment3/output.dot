@@ -1,0 +1,32 @@
+digraph DetailedClassDiagram {
+"dtu/deps/normal/Primes$PrimesIterator" [label="dtu/deps/normal/Primes$PrimesIterator"]
+"dtu/deps/simple/Other" [label="dtu/deps/simple/Other"]
+"dtu/deps/tricky/Tricky" [label="dtu/deps/tricky/Tricky"]
+"dtu/deps/normal/Primes" [label="dtu/deps/normal/Primes"]
+"dtu/deps/simple/Example" [label="dtu/deps/simple/Example"]
+"dtu/deps/util/Utils" [label="dtu/deps/util/Utils"]
+"dtu/deps/normal/Primes" -> "-public void main():";
+"dtu/deps/tricky/Tricky" -> "- dtu: class <dtu/deps/tricky/Tricky>";
+"dtu/deps/simple/Other" -> "-public void main():";
+"dtu/deps/tricky/Tricky" -> "-private void hello(dtu/deps/util/Utils Other):";
+"dtu/deps/normal/Primes$PrimesIterator" -> "-public java/lang/Integer next():";
+"dtu/deps/tricky/Tricky" -> "-public void <init>():";
+"dtu/deps/simple/Other" -> "-public void <init>():";
+"dtu/deps/util/Utils" -> "-public void printHello():";
+"dtu/deps/simple/Example" -> "-public void <init>():";
+"dtu/deps/normal/Primes$PrimesIterator" -> "-protected this$0: class <dtu/deps/normal/Primes>";
+"dtu/deps/tricky/Tricky" -> "- simple: class <dtu/deps/tricky/Tricky>";
+"dtu/deps/tricky/Tricky" -> "- deps: class <dtu/deps/tricky/Tricky>";
+"dtu/deps/normal/Primes$PrimesIterator" -> "-public void <init>():";
+"dtu/deps/normal/Primes" -> "-private primes: class <java/util/List>";
+"dtu/deps/util/Utils" -> "-public void <init>():";
+"dtu/deps/normal/Primes$PrimesIterator" -> "-public java/lang/Object next():";
+"dtu/deps/normal/Primes$PrimesIterator" -> "-public boolean hasNext():";
+"dtu/deps/simple/Example" -> "-public void main():";
+"dtu/deps/simple/Example" -> "- other: class <dtu/deps/simple/Other>";
+"dtu/deps/normal/Primes" -> "-public java/util/Iterator iterator():";
+"dtu/deps/normal/Primes$PrimesIterator" -> "-private current: int";
+"dtu/deps/normal/Primes" -> "-public void <init>():";
+"dtu/deps/tricky/Tricky" -> "- Other: class <dtu/deps/simple/Example>";
+"dtu/deps/tricky/Tricky" -> "-private void Other(Other Other):";
+}
